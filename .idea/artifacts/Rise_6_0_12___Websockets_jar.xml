@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Rise 6.0.12 - Websockets:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Rise_6_0_12___Websockets_jar</output-path>
+    <root id="archive" name="Rise 6.0.12 - Websockets.jar">
+      <element id="module-output" name="Rise 6.0.12 - Websockets" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/slf4j-api-2.0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Java-WebSocket-1.5.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

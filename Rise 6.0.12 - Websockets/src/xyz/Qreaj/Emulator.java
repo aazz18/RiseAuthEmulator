@@ -29,7 +29,12 @@ public class Emulator extends WebSocketServer {
 
     @Override
     public void onMessage(WebSocket webSocket, String s) {
-             webSocket.send("{\"a\":true,\"b\":3.141592653589793,\"c\":69,\"id\":1}");
+            if (s.contains("\"id\":1")) {
+                webSocket.send("{\"a\":true,\"b\":3.141592653589793,\"c\":69,\"id\":1}");
+            }  if (s.contains("\"id\":3")) {
+                webSocket.send(s);
+        }
+
     }
 
     @Override
