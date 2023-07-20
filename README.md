@@ -8,4 +8,4 @@ and save the file<br />
 and run emulator jarfile<br />
 
 Rise.zip in the realese is original client jarfile<br />
-ADD -NOVERIFY TO <br />
+ADD -NOVERIFY TO LAUNCHER ARGUMENTS!!! <br />
