@@ -38,6 +38,7 @@ public class Emulator extends WebSocketServer {
     public static void main(String args[]) {
         WebSocketServer webSocketServer = new Emulator(new InetSocketAddress("127.0.0.1", 3009));
         webSocketServer.start();
+
     }
 
     public Emulator(InetSocketAddress address) {
@@ -58,11 +59,13 @@ public class Emulator extends WebSocketServer {
     public void onMessage(WebSocket webSocket, String s) {
             if (s.contains("\"id\":1")) {
                 webSocket.send("{\"a\":true,\"b\":3.141592653589793,\"c\":69,\"id\":1}");
+                System.out.println("Server join check sent!");
             } else if (s.contains("\"id\":3")) {
+                System.out.println("Server join check sent!");
                 webSocket.send(s);
         } else if (s.startsWith("{\"a\":[{\"a\":")) {
               webSocket.send(killaura_nametags(s));
-              System.out.println(killaura_nametags(s));
+              System.out.println("Killaura,Nametags check sent!");
             }
 
     }
