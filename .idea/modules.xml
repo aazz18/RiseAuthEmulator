@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Rise 6.0.12 - Websockets/Rise 6.0.12 - Websockets.iml" filepath="$PROJECT_DIR$/Rise 6.0.12 - Websockets/Rise 6.0.12 - Websockets.iml" />
       <module fileurl="file://$PROJECT_DIR$/RiseAuthEmulator.iml" filepath="$PROJECT_DIR$/RiseAuthEmulator.iml" />
     </modules>
   </component>
