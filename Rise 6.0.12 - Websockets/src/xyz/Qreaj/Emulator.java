@@ -31,7 +31,7 @@ public class Emulator extends WebSocketServer {
     public void onMessage(WebSocket webSocket, String s) {
             if (s.contains("\"id\":1")) {
                 webSocket.send("{\"a\":true,\"b\":3.141592653589793,\"c\":69,\"id\":1}");
-            }  if (s.contains("\"id\":3")) {
+            } else if (s.contains("\"id\":3")) {
                 webSocket.send(s);
         }
 
