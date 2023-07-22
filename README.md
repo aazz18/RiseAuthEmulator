@@ -9,3 +9,4 @@ and run emulator jarfile<br />
 
 Rise.zip in the realese is original client jarfile<br />
 ADD -NOVERIFY TO LAUNCHER ARGUMENTS!!! <br />
+My discord server https://discord.gg/JaXBcrQcxp
