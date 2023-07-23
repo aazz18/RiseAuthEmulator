@@ -1,6 +1,0 @@
-Can-Redefine-Classes: true
-Can-Retransform-Classes: true
-Manifest-Version: 1.0
-Class-Path: asm-debug-all-5.0.3.jar
-Premain-Class: xyz.Qreaj.Premain
-
